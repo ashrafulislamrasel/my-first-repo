@@ -1,0 +1,329 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+    .bnr_content {
+        margin-top: 19%;
+    }
+
+    .bnr_content h1 {
+        font-size: 90px;
+        padding: 10px 0;
+        color: #fff;
+        z-index: 99999999999999;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .bnr_content {
+        margin-top: 21%;
+    }
+
+    .bnr_content h1 {
+        padding: 10px 0;
+    }
+
+    /*** people starts ***/
+    #people ul.slick-dots {
+        bottom: -30px;
+        left: 43%;
+    }
+
+    /*** people ends ***/
+    
+    #counter p {
+        padding: 0 0px;
+        font-size: 15px;
+    }
+    #days,
+    #hours,
+    #minutes {
+        font-size: 60px;
+    }
+    
+    .quote_line p {
+        line-height: 50px;
+        font-size: 42px;
+    }
+
+    /*** gift_area start ***/
+    #gift_area {
+        text-align: center;
+    }
+    #gift_area .content p {
+        font-size: 15px;
+    }
+
+    /*** gift_area ends ***/
+
+    /*** footer_area start ***/
+
+    /*** footer_area ends ***/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*** hero_area starts ***/
+    .bnr_content {
+        margin-top: 13%;
+    }
+
+    .bnr_content h1 {
+        font-size: 90px;
+        padding: 10px 0;
+        
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+
+    /*** hero_area ends ***/
+
+    /*** about starts ***/
+    .about_left {
+        padding-right: 15px;
+    }
+
+    .about_right {
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+
+    .abt_icon {
+        display: none;
+    }
+
+    /*** about ends ***/
+
+     /*** people starts ***/
+    #people ul.slick-dots {
+        bottom: -30px;
+        left: 40%;
+    }
+    /*** people ends ***/
+    #counter p {
+        padding: 0 0px;
+        font-size: 15px;
+    }
+    #days,
+    #hours,
+    #minutes {
+        font-size: 60px;
+    }
+    #seconds {
+        font-size: 40px;
+    }
+
+    /*** quote starts ***/
+    .quote_line span.q_span {
+        margin-top: 20px;
+        margin-left: 301px;
+    }
+    .quote_line p {
+        line-height: 47px;
+        font-size: 37px;
+    }
+
+    /*** quote ends ***/
+
+    /*** footer_area start ***/
+ 
+
+    /*** footer_area ends ***/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*** hero_area starts ***/
+    .bnr_content {
+        margin-top: 49%;
+    }
+
+    .bnr_content h1 {
+        font-size: 75px;
+        padding: 10px 0;
+        
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+
+    /*** hero_area ends ***/
+
+    .about_left {
+        padding-right: 15px;
+    }
+
+    .about_right {
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+
+    .abt_icon {
+        display: none;
+    }
+
+    #people .common_heading h3:after {
+        margin-left: 2%;
+    }
+
+    #people ul.slick-dots {
+        bottom: -31px;
+        left: 40%;
+    }
+
+    /*** counter starts ***/
+    #counter p {
+        padding: 0 10px;
+    }
+
+    #days,
+    #hours,
+    #minutes {
+        font-size: 60px;
+    }
+
+    #seconds {
+        font-size: 30px;
+    }
+
+    div#timer span {
+        font-size: 18px;
+    }
+
+    /*** counter ends ***/
+    .quote_line p {
+        line-height: 40px;
+        font-size: 35px;
+    }
+    /*** footer_area start ***/
+    
+
+    /*** footer_area ends ***/
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #banner_area {
+        background-position: center;
+    }
+    .common_heading h3{
+        font-size: 40px;
+    }
+    .common_heading h3:after{
+        width: 200px;
+        margin-left: 20px;
+    }
+    /*** hero_area starts ***/
+    .bnr_content {
+        margin-top: 49%;
+    }
+
+    .bnr_content h1 {
+        font-size: 55px;
+        padding: 10px 0;
+        
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+
+    /*** hero_area ends ***/
+
+    .about_right {
+        margin-top: 15px;
+    }
+
+    .abt_icon {
+        display: none;
+    }
+    
+    .timeline__content-title{
+        font-size: 31px;
+    }
+    
+    #people .common_heading h3:after {
+        margin-left: 6%;
+    }
+
+    #people ul.slick-dots {
+        bottom: -30px;
+        left: 28%;
+    }
+
+    #counter p {
+        padding: 0 0px;
+    }
+    
+    #days,
+    #hours,
+    #minutes,
+    #seconds{
+        font-size: 60px;
+    }
+    .quote_line p{
+        line-height: 44px;
+        font-size: 37px;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 320px) {
+    .common_heading h3{
+        font-size: 40px;
+    }
+    .common_heading h3:after{
+        width: 200px;
+        margin-left: 20px;
+    }
+    /*** hero_area starts ***/
+    .bnr_content {
+        margin-top: 49%;
+    }
+
+    .bnr_content h1 {
+        font-size: 55px;
+        padding: 10px 0;
+        
+    }
+    .hero_content p {
+        font-size: 20px;
+    }
+
+    /*** hero_area ends ***/
+
+    .about_right {
+        margin-top: 15px;
+    }
+
+    .abt_icon {
+        display: none;
+    }
+    
+    .timeline__content-title{
+        font-size: 31px;
+    }
+    
+    #people .common_heading h3:after {
+        margin-left: 6%;
+    }
+
+    #people ul.slick-dots {
+        bottom: -30px;
+        left: 28%;
+    }
+
+    #counter p {
+        padding: 0 0px;
+    }
+    
+    #days,
+    #hours,
+    #minutes,
+    #seconds{
+        font-size: 60px;
+    }
+    .quote_line p{
+        line-height: 44px;
+        font-size: 37px;
+    }
+}

@@ -1,0 +1,5 @@
+/*
+ * Main banner elem
+ * 1. Make sure the original is higher z-index so when scrolling up fast, the clone goes underneith.
+    Prevents visual overlap.
+ */
